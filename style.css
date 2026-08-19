@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 50px;
+}
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #0077cc;
+}
+
+.skills {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skills p {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.projects {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.projects div {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+a {
+    color: #0077cc;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+
+    .projects {
+        flex-direction: column;
+    }
+
+    section {
+        margin: 10px;
+    }
+}
